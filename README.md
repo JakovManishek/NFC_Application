@@ -16,10 +16,12 @@
 
 ## Скриншоты
 
-
-<img src="screenshots/Screenshot_1.jpg" width="30%" alt="Построение маршрута между 214 и 222 кабинетом"/>
-<img src="screenshots/Screenshot_2.jpg" width="30%" alt="Построение маршрута между 214 и 206 кабинетом"/> 
-<img src="screenshots/Screenshot_3.jpg" width="30%" alt="Построение маршрута между 214 и 207 кабинетом"/>
+Построение маршрута между 214 и 222 кабинетом
+<img src="screenshots/Screenshot_1.jpg" width="50%"/>
+Построение маршрута между 214 и 206 кабинетом
+<img src="screenshots/Screenshot_2.jpg" width="50%"/>
+Построение маршрута между 214 и 207 кабинетом
+<img src="screenshots/Screenshot_3.jpg" width="50%"/>
 
 
 ## Технологии
