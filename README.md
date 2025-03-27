@@ -17,9 +17,9 @@
 ## Скриншоты
 
 <div align="center">
-  <img src="screenshots/Screenshot_1.jpg" width="30%" alt="Построение маршрута между 214 и 206 кабинетом"/>
-  <img src="screenshots/Screenshot_2.jpg" width="30%" alt="Построение маршрута между 214 и 207 кабинетом"/> 
-  <img src="screenshots/Screenshot_3.jpg" width="30%" alt="Построение маршрута между 214 и 222 кабинетом"/>
+  <img src="screenshots/Screenshot_1.jpg" width="30%" alt="Построение маршрута между 214 и 222 кабинетом"/>
+  <img src="screenshots/Screenshot_2.jpg" width="30%" alt="Построение маршрута между 214 и 206 кабинетом"/> 
+  <img src="screenshots/Screenshot_3.jpg" width="30%" alt="Построение маршрута между 214 и 207 кабинетом"/>
 </div>
 
 ## Технологии
@@ -33,24 +33,24 @@
 
 ## Структура проекта
 
-CampusNavigator/
-├── app/
-│ ├── src/
-│ │ ├── main/
-│ │ │ ├── java/com/example/navigator/
-│ │ │ │ ├── MainActivity.kt # Основная логика
-│ │ │ │ └── LineView.kt # Отрисовка маршрута
-│ │ │ ├── res/
-│ │ │ │ ├── layout/ # Макеты
-│ │ │ │ │ └── activity_main.xml # Макет экрана
-│ │ │ │ ├── drawable/ # Изображения
-│ │ │ │ │ └── second_floor_png.png # План второго этажа
-│ │ │ │ └── values/ # Ресурсы
-│ │ │ └── AndroidManifest.xml
-│ ├── build.gradle # Конфигурация модуля
-├── build.gradle # Конфигурация проекта
-├── README.md
-└── .gitignore # Игнорируемые файлы
+    ```CampusNavigator/
+  ├── app/
+  │ ├── src/
+  │ │ ├── main/
+  │ │ │ ├── java/com/example/navigator/
+  │ │ │ │ ├── MainActivity.kt # Основная логика
+  │ │ │ │ └── LineView.kt # Отрисовка маршрута
+  │ │ │ ├── res/
+  │ │ │ │ ├── layout/ # Макеты
+  │ │ │ │ │ └── activity_main.xml # Макет экрана
+  │ │ │ │ ├── drawable/ # Изображения
+  │ │ │ │ │ └── second_floor_png.png # План второго этажа
+  │ │ │ │ └── values/ # Ресурсы
+  │ │ │ └── AndroidManifest.xml
+  │ ├── build.gradle # Конфигурация модуля
+  ├── build.gradle # Конфигурация проекта
+  ├── README.md
+  └── .gitignore # Игнорируемые файлы
 
 
 ## Быстрый старт
