@@ -68,7 +68,7 @@ CampusNavigator/
 ### Установка
 1. Клонируйте репозиторий:
    ```bash
-   git clone https://github.com/your-username/CampusNavigator.git
+   git clone https://github.com/JakovManishek/NFC_Application.git
 
 - Откройте проект в Android Studio
 - Настройте NFC метки (измените nfcIdMap в MainActivity.kt)
