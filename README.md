@@ -33,24 +33,40 @@
 
 ## Структура проекта
 
-    ```CampusNavigator/
-  ├── app/
-  │ ├── src/
-  │ │ ├── main/
-  │ │ │ ├── java/com/example/navigator/
-  │ │ │ │ ├── MainActivity.kt # Основная логика
-  │ │ │ │ └── LineView.kt # Отрисовка маршрута
-  │ │ │ ├── res/
-  │ │ │ │ ├── layout/ # Макеты
-  │ │ │ │ │ └── activity_main.xml # Макет экрана
-  │ │ │ │ ├── drawable/ # Изображения
-  │ │ │ │ │ └── second_floor_png.png # План второго этажа
-  │ │ │ │ └── values/ # Ресурсы
-  │ │ │ └── AndroidManifest.xml
-  │ ├── build.gradle # Конфигурация модуля
-  ├── build.gradle # Конфигурация проекта
-  ├── README.md
-  └── .gitignore # Игнорируемые файлы
+CampusNavigator/
+├── app/
+
+│ ├── src/
+
+│ │ ├── main/
+
+│ │ │ ├── java/com/example/navigator/
+
+│ │ │ │ ├── MainActivity.kt # Основная логика
+
+│ │ │ │ └── LineView.kt # Отрисовка маршрута
+
+│ │ │ ├── res/
+
+│ │ │ │ ├── layout/ # Макеты
+
+│ │ │ │ │ └── activity_main.xml # Макет экрана
+
+│ │ │ │ ├── drawable/ # Изображения
+
+│ │ │ │ │ └── second_floor_png.png # План второго этажа
+
+│ │ │ │ └── values/ # Ресурсы
+
+│ │ │ └── AndroidManifest.xml
+
+│ ├── build.gradle # Конфигурация модуля
+
+├── build.gradle # Конфигурация проекта
+
+├── README.md
+
+└── .gitignore # Игнорируемые файлы
 
 
 ## Быстрый старт
