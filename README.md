@@ -34,39 +34,30 @@
 ## Структура проекта
 
 CampusNavigator/
+├── .gitignore              # Игнорируемые файлы (см. ниже)
+├── README.md              # Описание проекта
 ├── app/
-
-│ ├── src/
-
-│ │ ├── main/
-
-│ │ │ ├── java/com/example/navigator/
-
-│ │ │ │ ├── MainActivity.kt # Основная логика
-
-│ │ │ │ └── LineView.kt # Отрисовка маршрута
-
-│ │ │ ├── res/
-
-│ │ │ │ ├── layout/ # Макеты
-
-│ │ │ │ │ └── activity_main.xml # Макет экрана
-
-│ │ │ │ ├── drawable/ # Изображения
-
-│ │ │ │ │ └── second_floor_png.png # План второго этажа
-
-│ │ │ │ └── values/ # Ресурсы
-
-│ │ │ └── AndroidManifest.xml
-
-│ ├── build.gradle # Конфигурация модуля
-
-├── build.gradle # Конфигурация проекта
-
-├── README.md
-
-└── .gitignore # Игнорируемые файлы
+│   ├── build.gradle.kts   # Изменённый файл
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── AndroidManifest.xml
+│   │   │   ├── java/
+│   │   │   │   └── com/example/myapplication/
+│   │   │   │       └── MainActivity.kt       # Основной изменённый файл
+│   │   │   ├── res/
+│   │   │   │   ├── drawable/
+│   │   │   │   │   ├── ic_launcher_*.xml    # Стандартные иконки
+│   │   │   │   │   └── second_floor_png.png # Ваше изображение
+│   │   │   │   ├── layout/
+│   │   │   │   │   └── activity_main.xml    # Изменённый файл
+│   │   │   │   └── values/                  # strings.xml, colors.xml и т.д.
+│   │   │   └── kotlin/                      # (если используется Kotlin)
+│   │   └── test/                            # Тесты
+│   └── libs/                                # Локальные библиотеки (если есть)
+├── gradle/
+│   └── wrapper/                            # Gradle-wrapper
+├── gradle.properties                       # Настройки Gradle
+└── settings.gradle.kts                     # Настройки проекта
 
 
 ## Быстрый старт
